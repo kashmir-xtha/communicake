@@ -13,6 +13,7 @@ In this method, a primary frame at particular instance is considered as a backgr
 
 2. HSV (Hue, Saturation, Value) color detection Method:
 In this method, hand is isolated from the background by setting HSV color space at a particular range such that skin colored object are considered whereas others are neglected. Still this method alone is not perfect as any object resembling the hand or skin color (maybe face, or skin-painted wall) are detected along with the hand.
+
 ![Screenshots](./Images/backgroundSubtraction.png)
 ![Screenshots](./Images/hsvColorDetection.png)
 
